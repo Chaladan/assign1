@@ -1,0 +1,10 @@
+ mkdir assign1
+ cd assign1/
+ touch Code.txt Log.txt Output.txt
+ git init
+ git add Code.txt
+ git add Output.txt
+ git status
+ git commit -m "committing files for 1'st assignment"
+ git remote add origin https://github.com/Chaladan/assign1.git
+ git push --set-upstream origin master
